@@ -1,4 +1,8 @@
 /* Limit size of html logo */
-.wy-side-nav-search > a img.logo {
+.logo {
+    text-align: center
+}
+
+a img.logo {
     height: 80px;
 }
