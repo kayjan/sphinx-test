@@ -6,7 +6,7 @@ def sample_function_google(a, b):
         b (str): Suffix of string
 
     Returns:
-        (str): Combined result of a and b
+        str: Combined result of a and b
     """
     return a + b
 
@@ -16,11 +16,14 @@ def sample_function_numpy(a, b):
 
     Parameters
     ----------
-    a (str): Prefix of string
-    b (str): Suffix of string
+    a: str
+       Prefix of string
+    b: str
+       Suffix of string
 
     Returns
     -------
-    (str): Combined result of a and b
+    str
+       Combined result of a and b
     """
     return a + b
